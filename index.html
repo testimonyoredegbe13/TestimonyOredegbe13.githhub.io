@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title> My Portfolio Page </title>
+    <link rel="stylesheet" href="assignment.css">
+    <style>
+     @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:wght@300;400;500;600&display=swap');
+   </style>
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div>
+            <ul class="nav-links">
+                <li><a href=""> Home </a></li>
+                <li><a href="#about"> About</a></li>
+                <li><a href="#experience">Experience </a></li>
+                <li><a href="#contact"> Contact </a></li>
+            </ul>
+        </div>
+    </nav>
+
+   <nav id="hamburger-nav">
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="" onclick="toggleMenu()"> Home </a></li>
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+  
+    <section id="profile">
+        <div class="section-pic-container">
+            <img src="./Images/IMG2.jpg" alt="Testimony profile picture"/>
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1"> Hello, I'm </p>
+            <h1 class="title"> Oredegbe Testimony </h1>
+            <p class="section_text_p2"> UI/UX Designer | Frontend Developer</p>
+            <button class="btn-container-button">
+              <span class="text"> Download CV</span>
+            </button>
+
+            <button class="btn-container-button2">
+              <span class="text"> Contact Info </span>
+            </button>
+            <div id="socials-container">
+                <img
+                  src="./Images/linkedin.png"
+                  alt="My LinkedIn profile"
+                  class="icon"
+                />
+                <img
+                  src="./Images/github.png"
+                  alt="My Github profile"
+                  class="icon"
+                />
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="section_text_p1"> Get to know more </p>
+        <h1 class="title"> About </h1>
+        <div class="section-container">
+            <div class="section_pic-container">
+              <img src="Images/IMG-20251114-WA0056(1).jpg" alt="boy in a suit" width="295"; height="370";>
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img
+                          src="./Images/experience.png"
+                          alt="experience icon"
+                          class="icon"
+                        >
+                        <h3> Experience </h3>
+                        <p> 2+ years <br/> Frontend Development </br>UI/UX Designing </p>
+                    </div>
+                    <div class="details-container">
+                        <img
+                         src="./Images/education.png"
+                         alt="Education icon"
+                         class="icon"
+                        />
+                        <h3> Education </h3>
+                        <p> B.Sc. Bachelors Degree in Computer Science </p>
+                    </div>
+                </div>
+
+                <div class="text_container">
+                    <p>
+                        "I've come to believe that each of us has a personal calling that's as unique as a fingerprint and that
+                         the best way to succeed is to discover what you love and then find a way to offer it to others in the
+                         form of service, working hard and also allowing the energy of the universe to lead you." —Oprah Winfrey
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <p class="section_text_p1"> Exlopore My </p>
+        <h1 class="title"> Experience </h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title"> Frontend Development </h2>
+                    <div class="article-container">
+                        <article>
+                            <img
+                             src="./Images/checkmark.png"
+                             alt=" Experience icon "
+                             class = icon
+                            />
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img
+                                src="./Images/checkmark.png"
+                                alt="Experience icon"
+                                class="icon"
+                            />
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img
+                                src="./Images/checkmark.png"
+                                alt="Experience icon"
+                                class="icon"
+                            />
+                            <div>
+                                <h3> C++ </h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img
+                                src="./Images/checkmark.png"
+                                alt="Experience icon"
+                                class="icon"
+                            />
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img
+                                src="./Images/checkmark.png"
+                                alt="Experience icon"
+                                class="icon"
+                            />
+                            <div>
+                                <h3>Material UI</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Backend Development</h2>
+                    <div class="article-container">
+                        <article>
+                          <img
+                             src="./Images/checkmark.png"
+                             alt="Experience icon"
+                             class="icon"
+                          />
+                          <div>
+                            <h3>Node JS</h3>
+                            <p>Intermediate</p>
+                          </div>
+                        </article>
+
+                        <article>
+                          <img
+                             src="./Images/checkmark.png"
+                             alt="Experience icon"
+                             class="icon"
+                            />
+                          <div>
+                            <h3>GIT</h3>
+                            <p>Intermediate</p>
+                          </div>
+                        </article>
+
+                        <article>
+                            <img
+                               src="./Images/checkmark.png"
+                               alt="Experience icon"
+                               class="icon"
+                              />
+                            <div>
+                              <h3>PHP</h3>
+                              <p>Intermediate</p>
+                            </div>
+                          </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <p class="section_text_p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./Images/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="testimonyoredegbe13@gmail.com">testimonyoredegbe13@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./Images/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href=""> Home </a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <p>Copyright &#169; 2025 Testimony Oredegbe. All Rights Reserved.</p>
+      </footer>
+      <script src="script.js"></script>
+    </body>
+  </html>
+</body>
+</html>
